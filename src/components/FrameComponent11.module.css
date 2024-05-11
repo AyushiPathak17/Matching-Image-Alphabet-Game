@@ -1,0 +1,356 @@
+.col,
+.header,
+.table {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(#9fc514, #9fc514),
+    linear-gradient(#9fc514, #9fc514), #9fc514;
+  min-width: 322px;
+  max-width: 100%;
+}
+.tableParent {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.background {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.cardstack {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card,
+.cardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card {
+  align-self: stretch;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 3;
+  background: #eebfcd;
+}
+.cardWrapper {
+  width: 177.1px;
+  flex-direction: column;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.background1 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon1 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart1 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameGroup {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card1,
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  width: 173.1px;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 3;
+  background: #eebfcd;
+}
+.cardContainer {
+  width: 260.1px;
+  flex-direction: column;
+}
+.heading1 {
+  width: 277px;
+  height: 60px;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.heading1LifeSkillsWrapper {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-157xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  
+}
+.background2 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frameIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon2 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart2 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameContainer {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  
+}
+.card2,
+.cardFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card2 {
+  align-self: stretch;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 3;
+  background: #a2e3f3;
+}
+.cardFrame {
+  width: 173.1px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.background3 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frameIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon3 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart3 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameParent1 {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card3,
+.frameDiv,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card3 {
+  align-self: stretch;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 3;
+  background: #a2e3f3;
+}
+.frameDiv,
+.frameParent {
+  box-sizing: border-box;
+}
+.frameDiv {
+  width: 173.1px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-20xl) var(--padding-37xl);
+  position: relative;
+  gap: var(--gap-16xl-9);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-cadetblue);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1400px) {
+  .frameParent,
+  .tableParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .heading1 {
+    font-size: var(--font-size-7xl);
+  }
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading1 {
+    font-size: var(--font-size-lgi);
+  }
+}

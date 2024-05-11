@@ -1,0 +1,300 @@
+.background {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameParent {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.card {
+  position: absolute;
+  top: 434px;
+  left: 68px;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  width: 173.1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 7;
+}
+.frameItem {
+  position: absolute;
+  top: 127.8px;
+  left: 65px;
+  width: 224.8px;
+  height: 155.2px;
+}
+.leftIcon,
+.rightIcon {
+  position: absolute;
+  top: 68.9px;
+  left: 0;
+  width: 58px;
+  height: 58px;
+}
+.rightIcon {
+  left: 186.7px;
+  width: 101.7px;
+  height: 76.9px;
+  object-fit: contain;
+}
+.unionIcon {
+  position: relative;
+  width: 38.2px;
+  height: 38.5px;
+}
+.blushesIcon,
+.faceIcon,
+.intersectIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.blushesIcon,
+.intersectIcon {
+  z-index: 2;
+}
+.blushesIcon {
+  z-index: 5;
+  object-fit: contain;
+  transform: scale(1.764);
+}
+.wrapperBlushes {
+  position: absolute;
+  top: 13.6px;
+  left: 20.8px;
+  width: 121.8px;
+  height: 19.9px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sHADEPoint {
+  position: absolute;
+  top: 101.5px;
+  left: 15.2px;
+  width: 156.5px;
+  height: 67.1px;
+}
+.shadeIcon,
+.wrapperShade {
+  position: absolute;
+  z-index: 2;
+}
+.shadeIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  transform: scale(1.462);
+}
+.wrapperShade {
+  top: 5.7px;
+  left: 15px;
+  width: 153px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unionIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.eyesIcon,
+.eyesIcon1,
+.noseIcon {
+  position: absolute;
+  top: 35.4px;
+  left: 99.7px;
+  width: 29px;
+  height: 22.6px;
+  z-index: 4;
+}
+.eyesIcon1,
+.noseIcon {
+  top: 35.6px;
+  left: 25px;
+}
+.noseIcon {
+  top: 64.4px;
+  left: 61.7px;
+  width: 29.3px;
+  height: 23.2px;
+}
+.faceComponents,
+.unionParent {
+  position: absolute;
+  top: 40.7px;
+  left: 19.9px;
+  width: 148.6px;
+  height: 88.7px;
+}
+.faceComponents {
+  top: 16.3px;
+  left: 29px;
+  width: 186.7px;
+  height: 168.6px;
+}
+.ellipseDiv,
+.frameInner,
+.leftParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 288.4px;
+  height: 184.9px;
+  z-index: 1;
+}
+.ellipseDiv,
+.frameInner {
+  top: 203.93px;
+  left: 75.27px;
+  filter: blur(3.87px);
+  border-radius: 50%;
+  background-color: var(--color-sienna);
+  width: 19.8px;
+  height: 10.3px;
+  transform: rotate(41.3deg);
+  transform-origin: 0 0;
+}
+.ellipseDiv {
+  top: 195.6px;
+  left: 106.07px;
+  filter: blur(13.98px);
+  background-color: var(--color-bisque);
+  width: 40.4px;
+  height: 51.4px;
+  transform: rotate(2deg);
+}
+.ellipseIcon,
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ellipseIcon {
+  top: 137.3px;
+  left: 109px;
+  width: 32.7px;
+  height: 26px;
+  z-index: 2;
+}
+.groupDiv,
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.groupIcon {
+  top: 159.1px;
+  left: 169.2px;
+  width: 42.9px;
+  height: 70.2px;
+  z-index: 3;
+}
+.frameChild1,
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameChild1 {
+  top: 120.2px;
+  left: 156.8px;
+  width: 82.5px;
+  height: 83.6px;
+  object-fit: contain;
+  z-index: 4;
+}
+.frameGroup {
+  height: 283px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  position: absolute;
+  top: 337px;
+  left: 144px;
+  width: 289.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 8;
+}
+.cardParent {
+  height: 746.4px;
+  width: 556.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 79px;
+  left: 471px;
+}

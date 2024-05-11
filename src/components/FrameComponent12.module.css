@@ -1,0 +1,329 @@
+.background {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.cardBackIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.cardWithBorder {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.card {
+  width: 173.1px;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  background: #eebfcd;
+}
+.background1 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon1 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart1 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameGroup {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.card1,
+.cardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  width: 173.1px;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 1;
+  background: #eebfcd;
+}
+.cardWrapper {
+  width: 226.1px;
+  flex-direction: column;
+}
+.background2 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon2 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart2 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameContainer {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.card2 {
+  flex: 1;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 112px;
+  z-index: 1;
+  background: #a2e3f3;
+}
+.background3 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frameIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heartIcon3 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart3 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameDiv {
+  height: 221px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.card3 {
+  flex: 1;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  flex-direction: row;
+  min-width: 112px;
+  z-index: 2;
+  background: #a2e3f3;
+}
+.card3,
+.cardParent,
+.nestedCardsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-16xl-9);
+}
+.nestedCardsInner {
+  width: 382.1px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nestedCards,
+.nestedCardsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.nestedCards {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.nestedCardsWrapper {
+  width: 1349.1px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(#9fc514, #9fc514),
+    linear-gradient(#9fc514, #9fc514), #9fc514;
+  min-width: 322px;
+  max-width: 100%;
+}
+.ellipseParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ellipseParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-30xl);
+  z-index: 1;
+}
+.frameParent {
+  flex-direction: column;
+}
+@media screen and (max-width: 1050px) {
+  .nestedCards {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ellipseParent {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cardParent {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+}

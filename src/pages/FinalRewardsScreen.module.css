@@ -1,0 +1,134 @@
+.finalRewardsScreenChild {
+  align-self: stretch;
+  height: 977px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  z-index: 3;
+}
+.image5Icon {
+  height: 1130px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(#9fc514, #9fc514),
+    linear-gradient(#9fc514, #9fc514), #9fc514;
+  min-width: 322px;
+  max-width: 100%;
+}
+.ellipseParent,
+.image5Parent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ellipseParent {
+  width: 1388px;
+  margin: 0 !important;
+  right: 42px;
+  bottom: 331px;
+  flex-wrap: wrap;
+  gap: var(--gap-30xl);
+  z-index: 1;
+}
+.image5Parent {
+  top: 0;
+  left: 0;
+  width: 1512px;
+}
+.frameChild1,
+.groupIcon {
+  position: absolute;
+  z-index: 4;
+}
+.groupIcon {
+  top: 45px;
+  left: 43px;
+  width: 194px;
+  height: 194px;
+  cursor: pointer;
+}
+.frameChild1 {
+  top: 40.7px;
+  left: 306px;
+  width: 755.4px;
+  height: 41.1px;
+  object-fit: contain;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  position: absolute;
+  top: -44px;
+  left: 901px;
+  width: 226.6px;
+  height: 229.5px;
+  object-fit: contain;
+  z-index: 5;
+}
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 234px;
+  left: 1000px;
+  z-index: 4;
+}
+.frameChild4,
+.frameChild5 {
+  top: 418.9px;
+  left: 1147.6px;
+  width: 215.4px;
+  height: 211.7px;
+  z-index: 5;
+}
+.frameChild5 {
+  top: -237.6px;
+  left: -5.2px;
+  width: 1558px;
+  height: 1554.1px;
+  z-index: 6;
+}
+.frameParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
+.finalRewardsScreen {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1110px) {
+  .frameParent {
+    height: auto;
+    min-height: 982;
+  }
+}
